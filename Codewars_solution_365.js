@@ -12,4 +12,4 @@ function pillars(num_pill, dist, width) {
        return 0;
        }
        return num_pill * ((dist * 100) + width) - (width * 2) - (dist * 100);
-    }
+}
