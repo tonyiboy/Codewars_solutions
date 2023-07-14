@@ -2,5 +2,4 @@
 // a == false
 // !a == false
 // a == !a
-
 const a = '0'
