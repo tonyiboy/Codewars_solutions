@@ -3,7 +3,7 @@
 // Output :: "One".
 // If your language supports it, try using a switch statement.
 
-unction switchItUp(number){
+function switchItUp(number){
     switch(number) {
       case 0:
         return 'Zero';
