@@ -17,8 +17,8 @@ function flickSwitch(arr){
     let noArr = []
     let mySwitch = true
     
-    for(let n of arr){
-      if (n === "flick") {
+    for(let n in arr){
+      if (arr[n] === "flick") {
         mySwitch = !mySwitch
         noArr.push(mySwitch)
       }else noArr.push(mySwitch)
