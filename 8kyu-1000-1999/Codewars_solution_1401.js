@@ -7,15 +7,12 @@
 function well(x){
     
     let count = 0
-    let counting = 0
     
     for(word in x){
       if(x[word] === "good"){
         count += 1
-      }
-      
+      }   
     }
     
     return count ? count > 2 ? 'I smell a series!' : 'Publish!' : 'Fail!'
-    
-  }
+}
