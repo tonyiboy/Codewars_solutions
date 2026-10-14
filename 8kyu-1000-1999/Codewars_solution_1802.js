@@ -5,5 +5,5 @@
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
 
 function drop(list, n) {
-    return list.slice(n);   
+    return list.slice(n);     
 }
